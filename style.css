@@ -1,8 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Noto+Sans&family=Source+Code+Pro:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 
 .sideBar {
-    background-color: red;
+    background-color: grey;
+    width: 10vw;
+    height: 100vh;
+    font-family: 'Fasthand', cursive;
+}
+
+.sideBar nav {
+    padding: 10px;
+    
+}
+
+.sideBar nav li {
+    font-size: 30px;
+    list-style: none;
+    padding: 10px 0;
+}
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.infoContainer {
+    /* background-color: rgb(81, 0, 255); */
+    height: 65vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.container {
+    display: flex;
+}
+.devPic img {
+    height: 40vh;
+    margin-top: 90px;
+}
+
+.devInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello {
+font-size: 50px;
+}
+
+.name {
+font-size: 40px;
+font-weight: bold;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.about {
+font-size: 25px;
+}
+
+.btn {
+
 }
