@@ -44,7 +44,7 @@
 
 .contactForm h1 {
     font-family: 'Source Code Pro', monospace;
-    text-align: center;
+    padding: 12px 0;
 }
 
 .contactForm form div {
@@ -54,9 +54,9 @@
 }
 
 .contactForm form div input{
-    width: 16vw;
+    width: 26vw;
     border-radius: 5px;
-    margin: 6px 0;
+    margin: 6px 0 0 0;
     padding: 3px;
 }
 
@@ -64,4 +64,30 @@
     font-size: 12px;
     color: midnightblue;
     margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 25px;
+    margin: 3px 0;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: cadetblue;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: cadetblue;
+    background-color: white;
 }
