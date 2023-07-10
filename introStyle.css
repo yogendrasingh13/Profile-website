@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Noto+Sans&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sideBar {
+    background-color: grey;
+    width: 434px;
+    height: 100vh;
+    font-family: 'Fasthand', cursive;
+}
+
+.sideBar nav {
+    padding: 10px;
+
+}
+
+.sideBar nav li {
+    font-size: 30px;
+    list-style: none;
+    padding: 10px 0;
+}
+
+.sideBar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.intro h2 {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 12px;
+}
+
+.intro p {
+    font-family: 'Source Code Pro', monospace; 
+    margin: 12px;
+}
+
+.skill {
+    height: 6px;
+}
+
+.skillContainer {
+    padding: 12px;
+}
+
+.skillItem {
+    display: flex;
+    font-family: 'Source Code Pro', monospace; 
+    align-items: center;
+    font-weight: 900;
+}
+
+.hundred {
+    width: 265px;
+    background-color: green;
+}
+
+.fifty {
+    width: 132px;
+    background-color: orangered;
+}
+
+.teentyf {
+    width: 65px;
+    background-color: red;
+}
