@@ -7,7 +7,8 @@
 
 .sideBar {
     background-color: grey;
-    width: 434px;
+    transition: transform 0.3s ease-in;
+    position: absolute;
     height: 100vh;
     font-family: 'Fasthand', cursive;
 }
@@ -42,6 +43,10 @@ margin: 20px;
 font-family: 'Noto Sans', sans-serif;
 }
 
+.blogContainer {
+    margin: 88px;
+}
+
 .blogContainer h1 {
     font-family: 'Noto Sans', sans-serif;
     margin: 23px;
@@ -65,4 +70,33 @@ font-family: 'Noto Sans', sans-serif;
 .btn:hover {
     color: cadetblue;
     background-color: white;
+}
+
+.sideBarGo {
+    transform: translate(-443px, 0px);
+        position: absolute;
+}
+
+.hamburger {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.cross {
+    margin-left: 100px;
+}
+
+@media (max-width:1300px) {
+    *{
+        /* background-color: red; */
+    }
+    .blogContainer {
+        margin: 50px 8px;
+    }
+    /* .sideBar {
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
 }
