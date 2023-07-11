@@ -7,7 +7,8 @@
 
 .sideBar {
     background-color: grey;
-    width: 434px;
+    transition: transform 0.3s ease-in;
+    position: absolute;
     height: 100vh;
     font-family: 'Fasthand', cursive;
 }
@@ -39,12 +40,12 @@
 
 .contactForm {
     font-family: 'Noto Sans', sans-serif;
-    padding: 144px 34px;
+    margin: 88px;
 }
 
 .contactForm h1 {
     font-family: 'Source Code Pro', monospace;
-    padding: 12px 0;
+    /* padding: 12px 0; */
 }
 
 .contactForm form div {
@@ -53,8 +54,12 @@
     flex-direction: column;
 }
 
+.contactForm form {
+    margin: 0 40px;
+}
+
 .contactForm form div input{
-    width: 26vw;
+    /* width: 26vw; */
     border-radius: 5px;
     margin: 6px 0 0 0;
     padding: 3px;
@@ -90,4 +95,33 @@
 .btn:hover {
     color: cadetblue;
     background-color: white;
+}
+
+.sideBarGo {
+    transform: translate(-443px, 0px);
+        position: absolute;
+}
+
+.hamburger {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.cross {
+    margin-left: 100px;
+}
+
+@media (max-width:1300px) {
+    *{
+        /* background-color: red; */
+    }
+    .contactForm {
+        margin: 50px 8px;
+    }
+    /* .sideBar {
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
 }
