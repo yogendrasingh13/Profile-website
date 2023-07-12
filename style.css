@@ -46,15 +46,17 @@
 
 .container {
     display: flex;
+    background-image: url('./image/bgimg1.jpg');
 }
 
 .devPic img {
-    height: 40vh;
-    margin-top: 90px;
+    height: 60vh;
+    margin-top: 10px;
 }
 
 .devInfo {
     display: flex;
+    color: white;
     font-size: 16px;
     flex-direction: column;
     justify-content: center;

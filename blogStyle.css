@@ -36,6 +36,7 @@
 
 .container {
     display: flex;
+    background-image: url('./image/bgimg1.jpg');
 }
 
 .blogItem {
@@ -45,6 +46,7 @@ font-family: 'Noto Sans', sans-serif;
 
 .blogContainer {
     margin: 88px;
+    color: white;
 }
 
 .blogContainer h1 {

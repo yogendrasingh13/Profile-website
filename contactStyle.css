@@ -36,11 +36,13 @@
 
 .container {
     display: flex;
+    background-image: url('./image/bgimg1.jpg');
 }
 
 .contactForm {
     font-family: 'Noto Sans', sans-serif;
     margin: 88px;
+    color: white;
 }
 
 .contactForm h1 {

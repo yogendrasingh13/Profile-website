@@ -36,10 +36,12 @@
 
 .container {
     display: flex;
+    background-image: url('./image/bgimg1.jpg');
 }
 
 .intro {
     margin: 88px;
+    color: white;
 }
 
 .intro h2 {
