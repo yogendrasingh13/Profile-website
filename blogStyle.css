@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Noto+Sans&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Fasthand&family=Noto+Sans&family=Source+Code+Pro:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -6,9 +6,10 @@
 }
 
 .sideBar {
-    background-color: rgb(0, 255, 81);
+    background-color: rgba(0, 200, 63, 0.968);
     height: 50vh;
-    font-family: 'Fasthand', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
     transition: transform 0.3s ease-out;
     position: absolute;
     margin: 20px;
@@ -23,7 +24,7 @@
 .sideBar nav li {
     font-size: 30px;
     list-style: none;
-    /* padding: 10px 0; */
+    padding: 8px 0;
 }
 
 .sideBar nav li a {
@@ -66,8 +67,8 @@ font-family: 'Noto Sans', sans-serif;
 .btn {
     padding: 7px 13px;
     border-radius: 22px;
-    color: white;
-    background-color: cadetblue;
+    color: black;
+    background-color: rgb(0, 234, 74);
     font-weight: bold;
     font-size: 10px;
     cursor: pointer;
