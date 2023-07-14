@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Noto+Sans&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Fasthand&family=Noto+Sans&family=Source+Code+Pro:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -7,14 +7,14 @@
 
 
 .sideBar {
-    background-color: rgb(0, 255, 81);
+    background-color: rgba(0, 200, 63, 0.968);
     height: 50vh;
-    font-family: 'Fasthand', cursive;
     transition: transform 0.3s ease-out;
     position: absolute;
     margin: 20px;
     border-radius: 5px;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
 }
 
 .sideBar nav {
@@ -25,7 +25,7 @@
 .sideBar nav li {
     font-size: 30px;
     list-style: none;
-    /* padding: 10px 0; */
+    padding: 8px 0;
 }
 
 .sideBar nav li a {
@@ -36,6 +36,7 @@
 .main {
     /* background-color: yellow; */
     width: 100vw;
+    height: 100vh;
     
 }
 
@@ -43,7 +44,8 @@
     /* background-color: rgb(81, 0, 255); */
     height: 65vh;
     width: 80vw;
-    margin: 144px auto;
+    margin-top: 50px;
+    margin-left: 140px;
     display: flex;
     justify-content: space-around;
     font-family: 'Source Code Pro', monospace;
@@ -99,7 +101,7 @@
     padding: 9px 14px;
     border-radius: 22px;
     color: black;
-    background-color: rgb(0, 255, 81);
+    background-color: rgb(0, 234, 74);
     font-weight: bold;
     font-size: 1em;
     margin: 3px 3px;
@@ -109,6 +111,52 @@
 .btn button:hover {
     color: cadetblue;
     background-color: white;
+}
+
+.line {
+    background-color: rgb(0, 234, 74);
+    height: 2px;
+    width: 70vw;
+    margin-left: 14vw;
+    margin-top: 80px;
+    
+    
+    
+}
+
+.icons {
+    display: flex;
+}
+
+.icons a {
+    /* -webkit-border-radius: 50%; */
+    width: 40px;
+    height: 40px;
+    position: relative;
+    display: inline-block;
+    /* color: #fff;
+    margin-left: 50vw;
+    margin-right: 20px; */
+}
+
+
+.gmail img {
+    height: 40px;
+    width: 40px;
+    border-radius: 80px;
+    margin-left: 48vw;
+    margin-top: 10px;
+}
+
+.linkedin img {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    background-size: 10px;
+    width: 40px;
+    border-radius: 80px;
+    margin-left: 50vw;
+    margin-top: 10px;
 }
 
 .sideBarGo {
