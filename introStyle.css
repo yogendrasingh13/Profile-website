@@ -91,6 +91,52 @@
     background-color: red;
 }
 
+.line {
+    background-color: rgb(0, 234, 74);
+    height: 2px;
+    width: 70vw;
+    margin-left: 14vw;
+    margin-top: 80px;
+    
+    
+    
+}
+
+.icons {
+    display: flex;
+}
+
+.icons a {
+    /* -webkit-border-radius: 50%; */
+    width: 40px;
+    height: 40px;
+    position: relative;
+    display: inline-block;
+    /* color: #fff;
+    margin-left: 50vw;
+    margin-right: 20px; */
+}
+
+
+.gmail img {
+    height: 40px;
+    width: 40px;
+    border-radius: 80px;
+    margin-left: 48vw;
+    margin-top: 10px;
+}
+
+.linkedin img {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    background-size: 10px;
+    width: 40px;
+    border-radius: 80px;
+    margin-left: 50vw;
+    margin-top: 10px;
+}
+
 .sideBarGo {
     transform: translate(0px, -500px);
         position: absolute;
