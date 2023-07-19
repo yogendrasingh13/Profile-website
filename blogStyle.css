@@ -34,7 +34,7 @@
 
 .main {
     /* background-color: yellow; */
-    width: 90vw;
+    width: 100vw;
 }
 
 .container {
@@ -78,6 +78,65 @@ font-family: 'Noto Sans', sans-serif;
 .btn:hover {
     color: cadetblue;
     background-color: white;
+}
+
+.line {
+    background-color: rgb(0, 234, 74);
+    height: 2px;
+    width: 70vw;
+    margin-left: 14vw;
+    margin-top: 80px;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons a {
+    /* -webkit-border-radius: 50%; */
+    width: 40px;
+    height: 40px;
+    position: relative;
+    display: inline-block;
+    /* color: #fff;
+    margin-left: 50vw;
+    margin-right: 20px; */
+}
+
+
+.gmail img {
+    height: 40px;
+    width: 40px;
+    border-radius: 80px;
+    margin-left: 44vw;
+    margin-top: 10px;
+}
+
+.linkedin img {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    width: 40px;
+    border-radius: 80px;
+    margin-left: 46vw;
+    margin-top: 10px;
+}
+
+.github img {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    background-size: 10px;
+    width: 40px;
+    border-radius: 80px;
+    margin-left: 48vw;
+    margin-top: 10px;
+}
+
+.disclaimer p {
+    color: rgb(0, 255, 81);
+    margin: 20px 0;
+    text-align: center;
 }
 
 .sideBarGo {
