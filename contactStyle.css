@@ -34,7 +34,7 @@
 
 .main {
     /* background-color: yellow; */
-    width: 90vw;
+    width: 100vw;
     height: 100vh;
 }
 
@@ -137,7 +137,7 @@
     height: 40px;
     width: 40px;
     border-radius: 80px;
-    margin-left: 48vw;
+    margin-left: 44vw;
     margin-top: 10px;
 }
 
@@ -148,8 +148,25 @@
     background-size: 10px;
     width: 40px;
     border-radius: 80px;
-    margin-left: 50vw;
+    margin-left: 46vw;
     margin-top: 10px;
+}
+
+.github img {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    background-size: 10px;
+    width: 40px;
+    border-radius: 80px;
+    margin-left: 48vw;
+    margin-top: 10px;
+}
+
+.disclaimer p {
+    color: rgb(0, 255, 81);
+    margin-top: 20px;
+    text-align: center;
 }
 
 .sideBarGo {
