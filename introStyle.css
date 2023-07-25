@@ -62,7 +62,7 @@
 }
 
 .skill {
-    height: 6px;
+    height: 15px;
 }
 
 .skillContainer {
@@ -78,17 +78,44 @@
 
 .hundred {
     width: 265px;
+    font-size: 13px;
     background-color: green;
 }
 
 .fifty {
     width: 132px;
+    font-size: 13px;
     background-color: orangered;
 }
 
 .teentyf {
     width: 65px;
+    font-size: 13px;
     background-color: red;
+}
+
+.H {
+   margin-left: 68px; 
+}
+
+.CS {
+margin-left: 78px;
+}
+
+.JS {
+margin-left: 10px;
+}
+
+.J {
+margin-left: 68px;
+}
+
+.C {
+margin-left: 97px;
+}
+
+.CC {
+margin-left: 77px;
 }
 
 .line {
