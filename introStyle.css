@@ -80,18 +80,24 @@
     width: 265px;
     font-size: 13px;
     background-color: green;
+    padding-bottom: 4px;
+    padding-left: 4px;
 }
 
 .fifty {
     width: 132px;
     font-size: 13px;
     background-color: orangered;
+    padding-bottom: 4px;
+    padding-left: 4px;
 }
 
 .teentyf {
     width: 65px;
     font-size: 13px;
     background-color: red;
+    padding-bottom: 4px;
+    padding-left: 4px;
 }
 
 .H {
