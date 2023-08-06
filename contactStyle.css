@@ -102,8 +102,8 @@
 }
 
 .btn:hover {
-    color: cadetblue;
-    background-color: white;
+    color: rgb(0, 234, 74);
+    background-color: black;
 }
 
 .line {
