@@ -325,7 +325,7 @@
         
     }
 
-    @media (max-width:821px) {
+    @media (max-width:821px) and (min-width:416px) {
 
         .sideBar {
             height: 30vh;
