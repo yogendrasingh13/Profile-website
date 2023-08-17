@@ -186,7 +186,7 @@
     margin-top: 5px;
 }
 
-@media (max-width:1300px) {
+@media (max-width:1281px) {
 
     .devPic {
         display: none;
@@ -199,6 +199,18 @@
 
     .btn {
         font-size: 10px;
+    }
+
+    .sideBar {
+        height: 41vh;
+    }
+
+    .cross {
+        margin-left: 13vw;
+    }
+
+    .line {
+        margin-top: 17vh;
     }
 }
 
@@ -273,7 +285,34 @@
     }
     }
 
-    @media (max-width:376px) {
+    @media (max-width:281px) { 
+
+        .sideBar {
+            height: 37vh;
+        }
+        .cross {
+            margin-left: 43vw;
+        }
+
+        .gmail img {
+            margin-left: 40vw;
+           }
+    
+           .linkedin img {
+            margin-left: 42vw;
+           }
+    
+           .github img {
+            margin-left: 44vw;
+           }
+
+        .disclaimer p {
+            margin-left: 22vw;
+            font-size: 8px;
+        }
+    }
+
+    @media (max-width:376px) and (min-width:282px) {
 
         .sideBar {
             height: 35vh;
@@ -334,7 +373,90 @@
         
     }
 
-    @media (max-width:821px) and (min-width:416px) {
+    @media (max-width:541px) and (min-width:416px) {
+
+        .sideBar {
+            height: 35vh;
+            width: 25vw;
+        }
+
+        .sideBar nav {
+            padding: 25px;
+        
+        }
+        
+        .sideBar nav li {
+            font-size: 20px;
+            list-style: none;
+            padding: 8px 0;
+        }
+
+        .container {
+            height: 102vh;
+        }
+
+        .cross {
+            margin-top: 8px;
+            margin-left: 21vw;
+            height: 30px;
+            width: 30px;
+        }
+
+        .line {
+            margin-top: 15vh;
+        }
+
+        .gmail img {
+            margin-left: 36vw;
+           }
+    
+           .linkedin img {
+            margin-left: 38vw;
+           }
+    
+           .github img {
+            margin-left: 40vw;
+           }
+
+        .disclaimer p {
+            font-size: 8px;
+        }
+        
+    }
+
+    @media (max-width:769px) and (min-width:542px) {
+
+        .sideBar {
+            height: 30vh;
+        }
+
+        .cross {
+            margin-left: 21vw;
+        }
+
+        .line {
+            margin-top: 20vh;
+        }
+
+        .gmail img {
+            margin-left: 41vw;
+           }
+    
+           .linkedin img {
+            margin-left: 43vw;
+           }
+    
+           .github img {
+            margin-left: 45vw;
+           }
+
+        .disclaimer p {
+            font-size: 8px;
+        }
+        
+    }
+
+    @media (max-width:821px) and (min-width:770px) {
 
         .sideBar {
             height: 30vh;
@@ -361,8 +483,69 @@
            }
 
         .disclaimer p {
-            /* margin-left: 25vw; */
             font-size: 8px;
         }
         
+    }
+
+    @media (max-width:913px) and (min-width:822px) {
+
+        .sideBar {
+            height: 25vh;
+        }
+
+        .cross {
+            margin-left: 18vw;
+        }
+
+        .line {
+            margin-top: 22vh;
+        }
+
+        .gmail img {
+            margin-left: 41vw;
+           }
+    
+           .linkedin img {
+            margin-left: 43vw;
+           }
+    
+           .github img {
+            margin-left: 45vw;
+           }
+
+        .disclaimer p {
+            font-size: 10px;
+        }
+        
+    }
+
+    @media (max-width:1025px) and (min-width:914px) {
+
+        .sideBar {
+            height: 52vh;
+        }
+        .cross {
+            margin-left: 16vw;
+        }
+
+        .container {
+            height: 106vh;
+        }
+
+        .line {
+            margin-top: 17vh;
+        }
+
+        .gmail img {
+            margin-left: 42vw;
+           }
+    
+           .linkedin img {
+            margin-left: 44vw;
+           }
+    
+           .github img {
+            margin-left: 46vw;
+           }
     }
