@@ -297,28 +297,11 @@
            }
 
         .disclaimer p {
-            /* margin-left: 20vw; */
-            font-size: 9px;
-        }
-        
-    }
-
-    /* @media (max-width:321px) {
-
-        .sideBar {
-            height: 50vh;
-        }
-
-        .cross {
-            margin-left: 33vw;
-        }
-
-        .disclaimer p {
-            margin-left: 25vw;
+            margin-left: 20vw;
             font-size: 8px;
         }
         
-    } */
+    }
 
     @media (max-width:391px) {
 
@@ -342,24 +325,19 @@
         
     }
 
-    /* @media (max-width:415px) {
+    /* @media (max-width:321px) {
 
         .sideBar {
-            height: 32vh;
+            height: 50vh;
         }
 
         .cross {
-            margin-left: 25vw;
+            margin-left: 33vw;
         }
 
         .disclaimer p {
-            margin-left: 32vw;
+            margin-left: 25vw;
             font-size: 8px;
         }
-
-        .container {
-            width: 125vw;
-            height: 126vh;
-           }    
         
     } */
