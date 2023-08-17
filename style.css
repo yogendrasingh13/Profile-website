@@ -205,7 +205,10 @@
     @media (max-width:415px) {
 
         .cross {
-            margin-left: 24.5vw;
+            margin-top: 10px;
+            margin-left: 29vw;
+            height: 30px;
+            width: 30px;
         }
 
         .sideBar {
@@ -273,7 +276,7 @@
     @media (max-width:376px) {
 
         .sideBar {
-            height: 20vh;
+            height: 35vh;
         }
 
         .sideBar nav li {
@@ -281,7 +284,10 @@
         }
 
         .cross {
-            margin-left: 28vw;
+            margin-top: 10px;
+            margin-left: 32vw;
+            height: 30px;
+            width: 30px;
         }
 
         .gmail img {
@@ -297,20 +303,23 @@
            }
 
         .disclaimer p {
-            margin-left: 20vw;
+            margin-left: 22vw;
             font-size: 8px;
         }
         
     }
 
-    @media (max-width:391px) {
+    @media (max-width:391px) and (min-width:377px){
 
         .sideBar {
             height: 32vh;
         }
 
         .cross {
-            margin-left: 27vw;
+            margin-top: 8px;
+            margin-left: 31vw;
+            height: 30px;
+            width: 30px;
         }
 
         .disclaimer p {
