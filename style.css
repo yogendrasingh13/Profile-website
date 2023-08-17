@@ -265,7 +265,7 @@
        }
 
        .disclaimer p {
-        margin-left: 24vw;
+        /* margin-left: 24vw; */
         font-size: 10px;
     }
     }
@@ -297,7 +297,7 @@
            }
 
         .disclaimer p {
-            margin-left: 20vw;
+            /* margin-left: 20vw; */
             font-size: 9px;
         }
         
@@ -332,7 +332,6 @@
 
         .disclaimer p {
             /* margin-left: 30vw; */
-            text-align: center;
             font-size: 8px;
         }
 
