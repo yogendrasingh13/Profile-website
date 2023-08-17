@@ -306,3 +306,25 @@
         }
         
     }
+
+    @media (max-width:391px) {
+
+        .sideBar {
+            height: 32vh;
+        }
+
+        .cross {
+            margin-left: 27vw;
+        }
+
+        .disclaimer p {
+            margin-left: 32vw;
+            font-size: 8px;
+        }
+
+        .container {
+            width: 125vw;
+            height: 120vh;
+           }    
+        
+    }
