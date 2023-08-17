@@ -45,7 +45,7 @@
     height: 65vh;
     width: 80vw;
     margin-top: 50px;
-    margin-left: 140px;
+    margin-left: 9vw;
     display: flex;
     justify-content: space-around;
     font-family: 'Source Code Pro', monospace;
@@ -55,8 +55,8 @@
     display: flex;
     background-image: url('./image/bgimg1.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size:cover;
+    background-attachment:fixed;
 }
 
 .devPic img {
@@ -126,14 +126,10 @@
 }
 
 .icons a {
-    /* -webkit-border-radius: 50%; */
     width: 40px;
     height: 40px;
     position: relative;
     display: inline-block;
-    /* color: #fff;
-    margin-left: 50vw;
-    margin-right: 20px; */
 }
 
 
@@ -169,11 +165,11 @@
 .disclaimer p {
     color: rgb(0, 255, 81);
     margin: 20px 0;
-    text-align: center;
+    margin-left: 34vw;
 }
 
 .sideBarGo {
-    transform: translate(0px, -500px);
+    transform: translate(0px, -1000px);
     position: absolute;
 }
 
@@ -185,14 +181,11 @@
 }
 
 .cross {
-    margin-left: 165px;
+    margin-left: 10.5vw;
     margin-top: 5px;
 }
 
 @media (max-width:1300px) {
-    * {
-        /* background-color: red; */
-    }
 
     .devPic {
         display: none;
@@ -200,14 +193,116 @@
 
     .devInfo {
         font-size: 10px;
+
     }
 
     .btn {
         font-size: 10px;
     }
-
-    /* .sideBar {
-        transform: translate(-443px, 0px);
-        position: absolute;
-    } */
 }
+
+    @media (max-width:426px) {
+
+        .cross {
+            margin-left: 24.5vw;
+        }
+
+        .sideBar {
+            height: 45vh;
+            /* width: 30vw; */
+        }
+
+        .sideBar nav {
+            padding: 30px;
+        
+        }
+
+        .sideBar nav li {
+            font-size: 20px;
+            
+        }
+
+        .infoContainer {
+            margin-left: 28vw;
+            margin-top: 20vh;
+        }
+
+        .devPic {
+            display: none;
+        }
+    
+        .devInfo {
+            font-size: 10px;
+    
+        }
+    
+        .btn {
+            font-size: 10px;
+        }
+    
+       .container {
+        width: 125vw;
+        height: 126vh;
+       }
+
+       .line {
+        width: 92vw;
+        margin-left: 17vw;
+        margin-top: 25vh;
+       }
+
+       .gmail img {
+        margin-left: 46vw;
+       }
+
+       .linkedin img {
+        margin-left: 48vw;
+       }
+
+       .github img {
+        margin-left: 50vw;
+       }
+
+       .disclaimer p {
+        margin-left: 22vw;
+        font-size: 11px;
+    }
+    }
+
+    @media (max-width:376px) {
+
+        .cross {
+            margin-left: 28vw;
+        }
+
+        .gmail img {
+            margin-left: 44vw;
+           }
+    
+           .linkedin img {
+            margin-left: 46vw;
+           }
+    
+           .github img {
+            margin-left: 48vw;
+           }
+
+        .disclaimer p {
+            margin-left: 25vw;
+            font-size: 9px;
+        }
+        
+    }
+
+    @media (max-width:321px) {
+
+        .cross {
+            margin-left: 33vw;
+        }
+
+        .disclaimer p {
+            margin-left: 25vw;
+            font-size: 8px;
+        }
+        
+    }

@@ -188,7 +188,7 @@ margin-left: 77px;
 }
 
 .sideBarGo {
-    transform: translate(0px, -500px);
+    transform: translate(0px, -1000px);
         position: absolute;
 }
 
