@@ -271,6 +271,10 @@
 
     @media (max-width:376px) {
 
+        .sideBar {
+            height: 50vh;
+        }
+
         .cross {
             margin-left: 28vw;
         }
@@ -296,6 +300,10 @@
 
     @media (max-width:321px) {
 
+        .sideBar {
+            height: 45vh;
+        }
+
         .cross {
             margin-left: 33vw;
         }
@@ -307,7 +315,7 @@
         
     }
 
-    @media (max-width:391px) {
+    /* @media (max-width:391px) {
 
         .sideBar {
             height: 32vh;
@@ -315,6 +323,28 @@
 
         .cross {
             margin-left: 27vw;
+        }
+
+        .disclaimer p {
+            margin-left: 32vw;
+            font-size: 8px;
+        }
+
+        .container {
+            width: 125vw;
+            height: 120vh;
+           }    
+        
+    } */
+
+    @media (max-width:415px) {
+
+        .sideBar {
+            height: 32vh;
+        }
+
+        .cross {
+            margin-left: 25vw;
         }
 
         .disclaimer p {
