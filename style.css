@@ -214,7 +214,7 @@
     }
 }
 
-    @media (max-width:415px) {
+    @media (max-width:415px) and (min-width:377px) {
 
         .cross {
             margin-top: 10px;
@@ -315,34 +315,44 @@
     @media (max-width:376px) and (min-width:282px) {
 
         .sideBar {
-            height: 35vh;
+            height: 30vh;
+            width: 35vw;
         }
 
+        .sideBar nav {
+            padding: 20px;
+        
+        }
+        
         .sideBar nav li {
-            padding: 6px 0;
+            font-size: 20px;
+            padding: 4px 0;
         }
 
         .cross {
             margin-top: 10px;
-            margin-left: 32vw;
+            margin-left: 29vw;
             height: 30px;
             width: 30px;
         }
 
+        .line {
+            margin-top: 15vh;
+        }
+
         .gmail img {
-            margin-left: 44vw;
+            margin-left: 32vw;
            }
     
            .linkedin img {
-            margin-left: 46vw;
+            margin-left: 34vw;
            }
     
            .github img {
-            margin-left: 48vw;
+            margin-left: 36vw;
            }
 
         .disclaimer p {
-            margin-left: 22vw;
             font-size: 8px;
         }
         
@@ -362,7 +372,6 @@
         }
 
         .disclaimer p {
-            /* margin-left: 30vw; */
             font-size: 8px;
         }
 
