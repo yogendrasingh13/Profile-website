@@ -325,19 +325,35 @@
         
     }
 
-    /* @media (max-width:321px) {
+    @media (max-width:821px) {
 
         .sideBar {
-            height: 50vh;
+            height: 30vh;
         }
 
         .cross {
-            margin-left: 33vw;
+            margin-left: 20vw;
         }
 
+        .line {
+            margin-top: 20vh;
+        }
+
+        .gmail img {
+            margin-left: 41vw;
+           }
+    
+           .linkedin img {
+            margin-left: 43vw;
+           }
+    
+           .github img {
+            margin-left: 45vw;
+           }
+
         .disclaimer p {
-            margin-left: 25vw;
+            /* margin-left: 25vw; */
             font-size: 8px;
         }
         
-    } */
+    }
