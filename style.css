@@ -34,14 +34,12 @@
 }
 
 .main {
-    /* background-color: yellow; */
     width: 100vw;
     height: 100vh;
 
 }
 
 .infoContainer {
-    /* background-color: rgb(81, 0, 255); */
     height: 65vh;
     width: 80vw;
     margin-top: 50px;
