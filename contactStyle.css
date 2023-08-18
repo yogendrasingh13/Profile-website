@@ -88,7 +88,7 @@
     height: 2px;
     width: 70vw;
     margin-left: 14vw;
-    margin-top: 23vh; 
+    margin-top: 23  vh; 
 }
 
 .icons {
@@ -310,24 +310,30 @@
             width: 30px;
         }
 
+        .devContact {
+            margin-top: 45vh;
+        }
         .line {
-            margin-top: 15vh;
+            margin-top: 60vh;
+            margin-left: 36vw;
+            width: 90vw;
         }
 
         .gmail img {
-            margin-left: 32vw;
+            margin-left: 63vw;
            }
     
            .linkedin img {
-            margin-left: 34vw;
+            margin-left: 65vw;
            }
     
            .github img {
-            margin-left: 36vw;
+            margin-left: 67vw;
            }
 
         .disclaimer p {
-            font-size: 8px;
+            font-size: 6px;
+            margin-left: 62vw;
         }
         
     }
