@@ -33,7 +33,6 @@
 }
 
 .main {
-    /* background-color: yellow; */
     width: 100vw;
     height: 100vh;
 }
@@ -46,36 +45,38 @@
     background-attachment: fixed;
 }
 
-.mobile {
-    margin-left: 22vw;
-    font-size: 25px;
-    margin-top: 30vh;
-    color: white;
+.devContact {
+    height: 50vh;
+    width: 80vw;
+    margin-top: 14vh;
+    margin-left: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-family: 'Source Code Pro', monospace;
 }
 
+.mobile {
+    font-size: 25px;
+    color: white;
+}
+
 .whatsapp {
-    margin-left: 22vw;
     margin-top: 20px;
     font-size: 25px;
-    color: white; 
-    font-family: 'Source Code Pro', monospace; 
+    color: white;  
 }
 
 .mail {
-    margin-left: 22vw;
     margin-top: 20px;
     font-size: 25px;
-    color: white;
-    font-family: 'Source Code Pro', monospace; 
+    color: white; 
 }
 
 .linkdin {
-    margin-left: 22vw;
     margin-top: 20px;
     font-size: 25px;
-    color: white;
-    font-family: 'Source Code Pro', monospace; 
+    color: white; 
 }
 
 .linkdin a {
@@ -87,10 +88,7 @@
     height: 2px;
     width: 70vw;
     margin-left: 14vw;
-    margin-top: 32vh;
-    
-    
-    
+    margin-top: 23vh; 
 }
 
 .icons {
@@ -98,14 +96,10 @@
 }
 
 .icons a {
-    /* -webkit-border-radius: 50%; */
     width: 40px;
     height: 40px;
     position: relative;
     display: inline-block;
-    /* color: #fff;
-    margin-left: 50vw;
-    margin-right: 20px; */
 }
 
 
@@ -290,6 +284,10 @@
 
     @media (max-width:376px) and (min-width:282px) {
 
+        .container {
+            height: 170vh;
+            width: 170vw;
+        }
         .sideBar {
             height: 30vh;
             width: 35vw;
