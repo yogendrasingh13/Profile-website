@@ -195,7 +195,6 @@
 
         .sideBar {
             height: 30vh;
-            /* width: 30vw; */
         }
 
         .sideBar nav {
@@ -207,50 +206,37 @@
             font-size: 20px;
             
         }
-
-        .infoContainer {
-            margin-left: 28vw;
-            margin-top: 20vh;
-        }
-
-        .devPic {
-            display: none;
-        }
-    
-        .devInfo {
-            font-size: 10px;
-    
-        }
-    
-        .btn {
-            font-size: 10px;
-        }
     
        .container {
-        width: 125vw;
-        height: 125.5vh;
+        width: 148.75vw;
+        height: 149vh;
+       }
+
+       .devContact {
+        margin-top: 30vh;
+        margin-left: 8vw;
        }
 
        .line {
         width: 92vw;
-        margin-left: 17vw;
-        margin-top: 25vh;
+        margin-left: 28vw;
+        margin-top: 55vh;
        }
 
        .gmail img {
-        margin-left: 46vw;
+        margin-left: 56vw;
        }
 
        .linkedin img {
-        margin-left: 48vw;
+        margin-left: 58vw;
        }
 
        .github img {
-        margin-left: 50vw;
+        margin-left: 60vw;
        }
 
        .disclaimer p {
-        margin-left: 24vw;
+        margin-left: 45vw;
         font-size: 10px;
     }
     }
