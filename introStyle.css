@@ -418,8 +418,8 @@
 @media (max-width:391px) and (min-width:377px) {
 
     .container {
-        width: 150.5vw;
-        height: 151vh;
+        width: 155vw;
+        height: 155vh;
     }
 
     .sideBar {
@@ -433,14 +433,41 @@
         width: 30px;
     }
 
-    .devContact {
-        margin-top: 32vh;
-        margin-left: 5vw;
+    .intro {
+        margin-left: 3vw;
+
     }
 
-    .disclaimer p {
-        /* margin-left: 30vw; */
-        font-size: 8px;
+    .line {
+        margin-top: 22vh;
+    }
+}
+
+@media (max-width:394px) and (min-width:392px) {
+
+    .container {
+        width: 155vw;
+        height: 155.5vh;
+    }
+
+    .sideBar {
+        height: 32vh;
+    }
+
+    .cross {
+        margin-top: 8px;
+        margin-left: 31vw;
+        height: 30px;
+        width: 30px;
+    }
+
+    .intro {
+        margin-left: 3vw;
+
+    }
+
+    .line {
+        margin-top: 22vh;
     }
 }
 
