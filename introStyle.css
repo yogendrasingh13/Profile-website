@@ -377,10 +377,11 @@
     }
 }
 
-@media (max-width:376px) and (min-width:282px) {
+@media (max-width:361px) and (min-width:282px) {
 
     .container {
         width: 126.2vw;
+        height: 218vh;
     }
 
     .intro {
@@ -391,11 +392,16 @@
 
     .intro h2 {
         text-align: center;
+        margin-top: 10vh;
     }
 
     .intro p {
         text-align: center;
 
+    }
+
+    .skillContainer {
+        margin-left: 0vw;
     }
 
     .sideBar {
@@ -421,13 +427,75 @@
     }
 
     .line {
-        margin-top: 30vh;
+        margin-top: 19vh;
         margin-left: 17vw;
         width: 90vw;
     }
 
     .disclaimer p {
-        font-size: 6px;
+        font-size: 9px;
+        margin-left: 23vw;
+    }
+
+}
+
+@media (max-width:376px) and (min-width:362px) {
+
+    .container {
+        width: 126.2vw;
+        height: 235vh;
+    }
+
+    .intro {
+        width: 100vw;
+        margin-left: 13vw;
+
+    }
+
+    .intro h2 {
+        text-align: center;
+        margin-top: 10vh;
+    }
+
+    .intro p {
+        text-align: center;
+
+    }
+
+    .skillContainer {
+        margin-left: 0vw;
+    }
+
+    .sideBar {
+        height: 30vh;
+        width: 35vw;
+    }
+
+    .sideBar nav {
+        padding: 20px;
+
+    }
+
+    .sideBar nav li {
+        font-size: 20px;
+        padding: 4px 0;
+    }
+
+    .cross {
+        margin-top: 10px;
+        margin-left: 29vw;
+        height: 30px;
+        width: 30px;
+    }
+
+    .line {
+        margin-top: 19vh;
+        margin-left: 17vw;
+        width: 90vw;
+    }
+
+    .disclaimer p {
+        font-size: 9px;
         margin-left: 23vw;
     }
 
@@ -559,6 +627,10 @@
 
 @media (max-width:769px) and (min-width:542px) {
 
+    .container {
+        height: 115vh;
+    }
+
     .sideBar {
         height: 30vh;
     }
@@ -581,7 +653,7 @@
     }
 
     .line {
-        margin-top: 5vh;
+        margin-top: 0vh;
     }
 
     .gmail img {
@@ -603,6 +675,10 @@
 }
 
 @media (max-width:821px) and (min-width:770px) {
+
+    .container {
+        height: 105vh;
+    }
 
     .sideBar {
         height: 30vh;
@@ -627,7 +703,7 @@
 
 
     .line {
-        margin-top: 2vh;
+        margin-top: 11vh;
     }
 
     .gmail img {
@@ -651,7 +727,7 @@
 @media (max-width:913px) and (min-width:822px) {
 
     .container {
-        height: 101vh;
+        height: 100vh;
     }
 
     .sideBar {
@@ -692,7 +768,7 @@
     }
 
     .disclaimer p {
-        font-size: 11px;
+        font-size: 12px;
     }
 
 }
