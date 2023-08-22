@@ -381,12 +381,12 @@
 
     .container {
         width: 126.2vw;
-        height: 218vh;
+        height: 195vh;
     }
 
     .intro {
-        width: 100vw;
-        margin-left: 13vw;
+        width: 116vw;
+        margin-left: 5vw;
 
     }
 
@@ -427,7 +427,7 @@
     }
 
     .line {
-        margin-top: 19vh;
+        margin-top: 17vh;
         margin-left: 17vw;
         width: 90vw;
     }
@@ -443,12 +443,12 @@
 
     .container {
         width: 126.2vw;
-        height: 235vh;
+        height: 215vh;
     }
 
     .intro {
-        width: 100vw;
-        margin-left: 13vw;
+        width: 116vw;
+        margin-left: 5vw;
 
     }
 
@@ -560,7 +560,7 @@
 @media (max-width:541px) and (min-width:416px) {
 
     .container {
-        height: 205.5vh;
+        height: 190vh;
         width: 100vw;
     }
 
@@ -582,8 +582,8 @@
 
     .intro {
         text-align: center;
-        width: 80vw;
-        margin-left: 9.5vw;
+        width: 90vw;
+        margin-left: 5vw;
     }
 
     .intro h2 {
@@ -603,7 +603,7 @@
     }
 
     .line {
-        margin-top: 24vh;
+        margin-top: 21vh;
         margin-left: 14vw;
     }
 
