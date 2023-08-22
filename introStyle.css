@@ -213,9 +213,17 @@
         display: none;
     }
 
-    .devInfo {
-        font-size: 10px;
+    .intro {
+        text-align: center;
+    }
 
+    .intro h2 {
+        margin-top: 8vh;
+        text-align: center;
+    }
+
+    .skillContainer {
+        margin-left: 26vw;
     }
 
     .btn {
@@ -231,7 +239,7 @@
     }
 
     .line {
-        margin-top: 24vh;
+        margin-top: 25vh;
     }
 }
 
@@ -314,8 +322,8 @@
 @media (max-width:281px) {
 
     .container {
-        height: 213.1vh;
-        width: 213vw;
+        height: 220vh;
+        width: 162vw;
     }
 
     .main {
@@ -330,31 +338,41 @@
         margin-left: 43vw;
     }
 
-    .devContact {
-        margin-top: 70vh;
-        margin-left: 8vw;
+    .intro {
+        text-align: center;
+        width: 150vw;
+        margin-left: 6vw;
+    }
+
+    .intro h2 {
+        margin-top: 10vh;
+        text-align: center;
+    }
+
+    .skillContainer {
+        margin-left: 2vw;
     }
 
     .line {
         width: 110vw;
-        margin-top: 73vh;
-        margin-left: 52vw;
+        margin-top: 19vh;
+        margin-left: 27vw;
     }
 
     .gmail img {
-        margin-left: 82vw;
+        margin-left: 59vw;
     }
 
     .linkedin img {
-        margin-left: 84vw;
+        margin-left: 61vw;
     }
 
     .github img {
-        margin-left: 86vw;
+        margin-left: 63vw;
     }
 
     .disclaimer p {
-        margin-left: 62vw;
+        margin-left: 16vw;
         font-size: 9px;
     }
 }
@@ -474,8 +492,8 @@
 @media (max-width:541px) and (min-width:416px) {
 
     .container {
-        height: 118vh;
-        width: 118vw;
+        height: 205.5vh;
+        width: 100vw;
     }
 
     .sideBar {
@@ -494,6 +512,21 @@
         padding: 8px 0;
     }
 
+    .intro {
+        text-align: center;
+        width: 80vw;
+        margin-left: 9.5vw;
+    }
+
+    .intro h2 {
+        margin-top: 10vh;
+        text-align: center;
+    }
+
+    .skillContainer {
+        margin-left: 2vw;
+    }
+
     .cross {
         margin-top: 8px;
         margin-left: 21vw;
@@ -501,31 +534,25 @@
         width: 30px;
     }
 
-    .devContact {
-        margin-top: 25vh;
-        margin-left: 8vw;
-    }
-
     .line {
-        margin-top: 29vh;
-        margin-left: 23vw;
+        margin-top: 24vh;
+        margin-left: 14vw;
     }
 
     .gmail img {
-        margin-left: 45vw;
+        margin-left: 37vw;
     }
 
     .linkedin img {
-        margin-left: 47vw;
+        margin-left: 39vw;
     }
 
     .github img {
-        margin-left: 49vw;
+        margin-left: 41vw;
     }
 
     .disclaimer p {
         font-size: 9px;
-        margin-left: 15vw;
     }
 
 }
@@ -540,8 +567,21 @@
         margin-left: 21vw;
     }
 
+    .intro {
+        text-align: center;
+    }
+
+    .intro h2 {
+        margin-top: 6vh;
+        text-align: center;
+    }
+
+    .skillContainer {
+        margin-left: 13vw;
+    }
+
     .line {
-        margin-top: 26vh;
+        margin-top: 5vh;
     }
 
     .gmail img {
@@ -572,12 +612,22 @@
         margin-left: 20vw;
     }
 
-    .devContact {
-        margin-left: 10vw;
+    .intro {
+        text-align: center;
     }
 
+    .intro h2 {
+        margin-top: 8vh;
+        text-align: center;
+    }
+
+    .skillContainer {
+        margin-left: 13vw;
+    }
+
+
     .line {
-        margin-top: 26vh;
+        margin-top: 2vh;
     }
 
     .gmail img {
@@ -600,6 +650,10 @@
 
 @media (max-width:913px) and (min-width:822px) {
 
+    .container {
+        height: 101vh;
+    }
+
     .sideBar {
         height: 25vh;
     }
@@ -608,8 +662,21 @@
         margin-left: 18vw;
     }
 
+    .intro {
+        text-align: center;
+    }
+
+    .intro h2 {
+        margin-top: 10.5vh;
+        text-align: center;
+    }
+
+    .skillContainer {
+        margin-left: 13vw;
+    }
+
     .line {
-        margin-top: 26vh;
+        margin-top: 16vh;
     }
 
     .gmail img {
@@ -625,7 +692,7 @@
     }
 
     .disclaimer p {
-        font-size: 10px;
+        font-size: 11px;
     }
 
 }
@@ -641,11 +708,24 @@
     }
 
     .container {
-        height: 106vh;
+        height: 177.5vh;
+    }
+
+    .intro {
+        text-align: center;
+    }
+
+    .intro h2 {
+        margin-top: 6vh;
+        text-align: center;
+    }
+
+    .skillContainer {
+        margin-left: 20vw;
     }
 
     .line {
-        margin-top: 27vh;
+        margin-top: 26vh;
     }
 
     .gmail img {
