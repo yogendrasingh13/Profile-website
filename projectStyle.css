@@ -47,7 +47,10 @@
 
 .blogItem {
 margin: 20px;
+margin-top: 10vh;
 font-family: 'Noto Sans', sans-serif;
+display: flex;
+align-content: space-around;
 }
 
 .blogContainer {
@@ -62,6 +65,12 @@ font-family: 'Noto Sans', sans-serif;
 
 .blogItem p {
     font-family: 'Source Code Pro', monospace;
+    
+}
+
+.pImg img {
+    height: 250px;
+    width: 400px;
 }
 
 .btn {
