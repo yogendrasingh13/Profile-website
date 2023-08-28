@@ -60,7 +60,7 @@ align-content: space-around;
 
 .blogContainer h1 {
     font-family: 'Noto Sans', sans-serif;
-    margin: 23px;
+    text-align: center;
 }
 
 .blogItem p {
@@ -68,13 +68,20 @@ align-content: space-around;
     
 }
 
+.discription {
+    width: 60vw;
+}
+
+.right {
+    text-align: right;
+}
 .pImg img {
     height: 250px;
     width: 400px;
 }
 
 .pImg {
-    margin: 0px 20px;
+    margin: 0px 90px;
 }
 
 .btn {
