@@ -78,7 +78,7 @@ align-content: space-around;
 .pImg img {
     height: 250px;
     width: 400px;
-    border-radius: 9px;
+    border-radius: 10px;
 }
 
 .pImg {
