@@ -72,9 +72,6 @@ align-content: space-around;
     width: 60vw;
 }
 
-.right {
-    text-align: right;
-}
 .pImg img {
     height: 250px;
     width: 400px;
