@@ -396,6 +396,43 @@ align-content: space-around;
         text-align: center;
     }
 
+    .blogItem {
+        margin: 20px;
+        margin-top: 10vh;
+        font-family: 'Noto Sans', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        }
+
+    .discription {
+        width: 60vw;
+    }
+    
+    .pImg img {
+        height: 50px;
+        width: 80px;
+        border-radius: 1px;
+    }
+    
+    .pImg {
+        margin: 0px 10px;
+    }
+    
+
+     /* .discription {
+        width: 100vw;
+    }
+    
+    .pImg img {
+      display: none;
+    }
+    
+    .pImg {
+        margin: 0px;
+    } */
+    
+
     .line {
         margin-top: 21vh;
         margin-left: 18vw;
