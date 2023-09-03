@@ -365,7 +365,7 @@ align-content: space-around;
 
     .container {
         width: 108vw;
-        height: 483vh;
+        height: 500vh;
     }
 
     .sideBar {
@@ -397,30 +397,11 @@ align-content: space-around;
     }
 
     .blogItem {
-        margin: 20px;
-        margin-top: 10vh;
-        font-family: 'Noto Sans', sans-serif;
-        display: flex;
-        flex-direction: column;
-        align-content: space-around;
-        }
-
-    .discription {
-        width: 60vw;
-    }
-    
-    .pImg img {
-        height: 50px;
-        width: 80px;
-        border-radius: 1px;
-    }
-    
-    .pImg {
-        margin: 0px 10px;
+        margin-top: 5vh;
     }
     
 
-     /* .discription {
+     .discription {
         width: 100vw;
     }
     
@@ -430,7 +411,7 @@ align-content: space-around;
     
     .pImg {
         margin: 0px;
-    } */
+    }
     
 
     .line {
