@@ -272,7 +272,7 @@ align-content: space-around;
 @media (max-width:281px) {
 
     .container {
-        height: 472vh;
+        height: 488vh;
         width: 150vw;
     }
 
@@ -293,6 +293,24 @@ align-content: space-around;
         margin-left: 2vw;
         text-align: center;
     }
+
+    .blogItem {
+        margin-top: 5vh;
+    }
+    
+
+     .discription {
+        width: 150vw;
+    }
+    
+    .pImg img {
+      display: none;
+    }
+    
+    .pImg {
+        margin: 0px;
+    }
+    
     
 
     .line {
