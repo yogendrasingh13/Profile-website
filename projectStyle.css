@@ -255,6 +255,7 @@ align-content: space-around;
 
      .discription {
         width: 127vw;
+        text-align: center;
     }
     
     .pImg img {
@@ -322,6 +323,7 @@ align-content: space-around;
 
      .discription {
         width: 150vw;
+        text-align: center;
     }
     
     .pImg img {
@@ -399,6 +401,7 @@ align-content: space-around;
 
      .discription {
         width: 100vw;
+        text-align: center;
     }
     
     .pImg img {
@@ -472,6 +475,7 @@ align-content: space-around;
 
     .blogItem {
         margin-top: 5vh;
+        text-align: center;
     }
     
 
@@ -641,6 +645,7 @@ align-content: space-around;
 
     .blogItem {
         margin-top: 5vh;
+        text-align: center;
     }
     
 
@@ -702,6 +707,7 @@ align-content: space-around;
 
     .blogItem {
         margin-top: 5vh;
+        text-align: center;
     }
     
 
@@ -763,11 +769,13 @@ align-content: space-around;
 
     .blogItem {
         margin-top: 5vh;
+        text-align: center;
     }
     
 
      .discription {
         width: 100vw;
+       
     }
     
     .pImg img {
@@ -826,6 +834,7 @@ align-content: space-around;
 
     .blogItem {
         margin-top: 5vh;
+        text-align: center;
     }
     
 
