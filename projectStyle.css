@@ -174,10 +174,12 @@ align-content: space-around;
     margin-top: 5px;
 }
 
-@media (max-width:1241px) {
+@media (max-width:1281px) {
 
     .blogContainer {
         text-align: center;
+        width: 90vw;
+        margin-left: 5vw;
     }
 
     .sideBar {
@@ -186,6 +188,25 @@ align-content: space-around;
 
     .cross {
         margin-left: 13vw;
+    }
+
+    .blogItem {
+        margin-top: 5vh;
+        text-align: left;
+    }
+    
+
+     .discription {
+        width: 100vw;
+    }
+    
+    .pImg img {
+      height: 260px;
+      width: 360px;
+    }
+    
+    .pImg {
+        margin: 20px;
     }
 
     .line {
@@ -312,7 +333,6 @@ align-content: space-around;
     }
     
     
-
     .line {
         width: 109vw;
         margin-top: 17vh;
@@ -586,7 +606,7 @@ align-content: space-around;
 @media (max-width:541px) and (min-width:416px) {
 
     .container {
-        height: 362vh;
+        height: 381vh;
         width: 100vw;
     }
 
@@ -617,6 +637,23 @@ align-content: space-around;
         margin-left: 21vw;
         height: 30px;
         width: 30px;
+    }
+
+    .blogItem {
+        margin-top: 5vh;
+    }
+    
+
+     .discription {
+        width: 150vw;
+    }
+    
+    .pImg img {
+      display: none;
+    }
+    
+    .pImg {
+        margin: 0px;
     }
 
     .line {
@@ -770,7 +807,7 @@ align-content: space-around;
 @media (max-width:913px) and (min-width:822px) {
 
     .container {
-        height: 154vh;
+        height: 183vh;
     }
 
     .sideBar {
@@ -785,6 +822,23 @@ align-content: space-around;
         width: 90vw;
         margin-left: 5vw;
         text-align: center;
+    }
+
+    .blogItem {
+        margin-top: 5vh;
+    }
+    
+
+     .discription {
+        width: 150vw;
+    }
+    
+    .pImg img {
+      display: none;
+    }
+    
+    .pImg {
+        margin: 0px;
     }
 
     .line {
@@ -820,13 +874,32 @@ align-content: space-around;
     }
 
     .container {
-        height: 316vh;
+        height: 492vh;
     }
 
     .blogContainer {
         width: 96vw;
         margin-left: 2vw;
         text-align: center;
+    }
+
+    .blogItem {
+        margin-top: 5vh;
+        text-align: left;
+    }
+    
+
+     .discription {
+        width: 150vw;
+    }
+    
+    .pImg img {
+      height: 250px;
+      width: 310px;
+    }
+    
+    .pImg {
+        margin: 20px;
     }
 
     .line {
