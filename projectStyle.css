@@ -299,15 +299,16 @@ align-content: space-around;
     }
 
     .main {
-        width: 150vw;
+        width: 100vw;
     }
 
     .sideBar {
-        height: 37vh;
+        height: 46vh;
+
     }
 
     .cross {
-        margin-left: 43vw;
+        margin-left: 59vw;
     }
     
     .blogContainer {
