@@ -34,7 +34,6 @@
 }
 
 .main {
-    /* background-color: yellow; */
     width: 100vw;
 }
 
@@ -54,13 +53,11 @@
 .intro h2 {
     font-family: 'Noto Sans', sans-serif;
     margin: 12px;
-    /* text-align: center; */
 }
 
 .intro p {
     font-family: 'Source Code Pro', monospace;
     margin: 12px;
-    /* text-align: center; */
 
 }
 
