@@ -229,6 +229,7 @@
 
     .container {
         /* height: 230vh; */
+        height: 100%;
         width: 149.9vw;
     }
 
