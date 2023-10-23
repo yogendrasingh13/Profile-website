@@ -228,7 +228,7 @@
 @media (max-width:281px) {
 
     .container {
-        height: 230vh;
+        /* height: 230vh; */
         width: 149.9vw;
     }
 
