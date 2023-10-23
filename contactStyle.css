@@ -208,7 +208,7 @@
         }
     
        .container {
-        width: 148.75vw;
+        width: 149vw;
         height: 149vh;
        }
 
@@ -245,7 +245,7 @@
 
         .container {
             height: 213.1vh;
-            width: 213vw;
+            width: 214vw;
         }
 
         .main {
@@ -292,7 +292,7 @@
 
         .container {
             height: 170vh;
-            width: 170vw;
+            width: 171vw;
         }
         .sideBar {
             height: 30vh;
@@ -348,7 +348,7 @@
     @media (max-width:391px) and (min-width:377px){
 
         .container {
-            width: 150.5vw;
+            width: 151vw;
             height: 151vh;
            } 
 
@@ -378,7 +378,7 @@
 
         .container {
             height: 118vh;
-            width: 118vw;
+            width: 119vw;
         }
 
         .sideBar {

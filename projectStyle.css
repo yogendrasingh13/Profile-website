@@ -495,7 +495,7 @@ align-content: space-around;
     .line {
         margin-top: 21vh;
         margin-left: 18vw;
-        width: vw;
+        /* width: vw; */
     }
 
     .gmail img {
