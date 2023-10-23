@@ -426,7 +426,7 @@
     }
 
     .disclaimer p {
-        font-size: 9px;
+        font-size: 8px;
         margin-left: 23vw;
     }
 
@@ -488,7 +488,7 @@
     }
 
     .disclaimer p {
-        font-size: 9px;
+        font-size: 8px;
         margin-left: 23vw;
     }
 
@@ -520,6 +520,11 @@
     .line {
         margin-top: 22vh;
     }
+
+    .disclaimer p {
+        font-size: 8px;
+        margin-left: 23.5vw;
+    }
 }
 
 @media (max-width:394px) and (min-width:392px) {
@@ -547,6 +552,11 @@
 
     .line {
         margin-top: 22vh;
+    }
+
+    .disclaimer p {
+        font-size: 8px;
+        /* margin-left: 23.5vw; */
     }
 }
 
