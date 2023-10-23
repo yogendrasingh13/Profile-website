@@ -427,7 +427,7 @@
 
     .disclaimer p {
         font-size: 8px;
-        margin-left: 23vw;
+        /* margin-left: 23vw; */
     }
 
 }
@@ -489,7 +489,7 @@
 
     .disclaimer p {
         font-size: 8px;
-        margin-left: 23vw;
+        /* margin-left: 23vw; */
     }
 
 }
@@ -523,7 +523,7 @@
 
     .disclaimer p {
         font-size: 8px;
-        margin-left: 23.5vw;
+        /* margin-left: 23.5vw; */
     }
 }
 
@@ -821,6 +821,6 @@
 
     .disclaimer p {
         font-size: 8px;
-        margin-left: 23.5vw;
+        /* margin-left: 23.5vw; */
     }
 }
