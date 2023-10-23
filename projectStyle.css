@@ -234,7 +234,8 @@ align-content: space-around;
 
     .container {
         width: 127vw;
-        height: 328vh;
+        /* height: 328vh; */
+        height: fit-content;
     }
 
     .blogContainer {
@@ -289,7 +290,8 @@ align-content: space-around;
 @media (max-width:281px) {
 
     .container {
-        height: 488vh;
+        /* height: 488vh; */
+        height: fit-content;
         width: 150vw;
     }
 
@@ -359,7 +361,8 @@ align-content: space-around;
 
     .container {
         width: 105vw;
-        height: 464vh;
+        /* height: 464vh; */
+        height: fit-content;
     }
 
     .sideBar {
@@ -438,7 +441,8 @@ align-content: space-around;
 
     .container {
         width: 108vw;
-        height: 500vh;
+        /* height: 500vh; */
+        height: fit-content;
     }
 
     .sideBar {
@@ -517,7 +521,8 @@ align-content: space-around;
 
     .container {
         width: 127vw;
-        height: 352vh;
+        /* height: 352vh; */
+        height: fit-content;
     }
 
     .sideBar {
@@ -559,7 +564,8 @@ align-content: space-around;
 
     .container {
         width: 127vw;
-        height: 352vh;
+        /* height: 352vh; */
+        height: fit-content;
     }
 
     .sideBar {
@@ -606,7 +612,8 @@ align-content: space-around;
 @media (max-width:541px) and (min-width:416px) {
 
     .container {
-        height: 381vh;
+        /* height: 381vh; */
+        height: fit-content;
         width: 100vw;
     }
 
@@ -683,7 +690,8 @@ align-content: space-around;
 @media (max-width:769px) and (min-width:542px) {
 
     .container {
-        height: 242vh;
+        /* height: 242vh; */
+        height: fit-content;
         width: 100vw;
     }
 
@@ -745,7 +753,8 @@ align-content: space-around;
 @media (max-width:821px) and (min-width:770px) {
 
     .container {
-        height: 208vh;
+        /* height: 208vh; */
+        height: fit-content;
         width: 110vw;
     }
 
@@ -811,7 +820,8 @@ align-content: space-around;
 @media (max-width:913px) and (min-width:822px) {
 
     .container {
-        height: 183vh;
+        /* height: 183vh; */
+        height: fit-content;
     }
 
     .sideBar {
@@ -879,7 +889,8 @@ align-content: space-around;
     }
 
     .container {
-        height: 492vh;
+        /* height: 492vh; */
+        height: fit-content;
     }
 
     .blogContainer {
