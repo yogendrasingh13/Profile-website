@@ -818,4 +818,9 @@
     .github img {
         margin-left: 46vw;
     }
+
+    .disclaimer p {
+        font-size: 8px;
+        margin-left: 23.5vw;
+    }
 }
