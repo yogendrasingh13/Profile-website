@@ -223,7 +223,6 @@
 
         .sideBar {
             height: 30vh;
-            /* width: 30vw; */
         }
 
         .sideBar nav {
@@ -312,6 +311,11 @@
         .disclaimer p {
             font-size: 6px;
         }
+
+        .container {
+            width: fit-content;
+            height: fit-content;
+           } 
     }
 
     @media (max-width:376px) and (min-width:282px) {
@@ -358,6 +362,10 @@
             font-size: 8px;
         }
         
+        .container {
+            width: fit-content;
+            height: fit-content;
+           } 
     }
 
     @media (max-width:391px) and (min-width:377px){
@@ -378,6 +386,8 @@
         }
 
         .container {
+            /* width: fit-content;
+            height: fit-content; */
             width: 125vw;
             height: 125.5vh;
            }    
@@ -403,8 +413,9 @@
         }
 
         .container {
-            height: 102vh;
-        }
+            width: fit-content;
+            height: fit-content;
+           } 
 
         .cross {
             margin-top: 8px;
@@ -464,6 +475,11 @@
         .disclaimer p {
             font-size: 8px;
         }
+
+        .container {
+            width: fit-content;
+            height: fit-content;
+           } 
         
     }
 
@@ -496,6 +512,11 @@
         .disclaimer p {
             font-size: 8px;
         }
+
+        .container {
+            width: fit-content;
+            height: fit-content;
+           } 
         
     }
 
@@ -528,6 +549,11 @@
         .disclaimer p {
             font-size: 10px;
         }
+
+        .container {
+            width: fit-content;
+            height: fit-content;
+           } 
         
     }
 
@@ -541,7 +567,8 @@
         }
 
         .container {
-            height: 106vh;
+            width: fit-content;
+            height: fit-content;
         }
 
         .line {

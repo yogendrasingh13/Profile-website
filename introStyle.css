@@ -43,6 +43,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    height: fit-content;
 }
 
 .intro {
@@ -628,7 +629,7 @@
 @media (max-width:769px) and (min-width:542px) {
 
     .container {
-        height: 115vh;
+        height: fit-content;
     }
 
     .sideBar {
@@ -677,7 +678,7 @@
 @media (max-width:821px) and (min-width:770px) {
 
     .container {
-        height: 105vh;
+        height: fit-content;
     }
 
     .sideBar {
@@ -727,7 +728,7 @@
 @media (max-width:913px) and (min-width:822px) {
 
     .container {
-        height: 100vh;
+        height: fit-content;
     }
 
     .sideBar {
