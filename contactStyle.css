@@ -293,6 +293,7 @@
         .container {
             height: 170vh;
             width: 171vw;
+            
         }
         .sideBar {
             height: 30vh;
@@ -376,8 +377,8 @@
     @media (max-width:541px) and (min-width:416px) {
 
         .container {
-            height: 118vh;
-            width: 119vw;
+            width: 141vw;
+            height: 141vh;
         }
 
         .sideBar {
@@ -462,6 +463,10 @@
             font-size: 8px;
         }
         
+        .container {
+            height: 118vh;
+            width: 119vw;
+        }
     }
 
     @media (max-width:821px) and (min-width:770px) {
